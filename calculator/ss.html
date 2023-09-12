@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function fetchDataWithPromise() {
+    return new Promise(function (resolve, reject) {
+        setTimeout(function () {
+            const data = "Data fetched with Promises!";
+            resolve(data);
+        }, 1000);
+    });
+}
+
+fetchDataWithPromise()
+    .then(function (result) {
+        console.log(result); // This will be called after 1 second
+    })
+    .catch(function (error) {
+        console.error(error);
+    });
+
+// Using Async/Await
+async function fetchDataWithAsyncAwait() {
+    try {
+        const result = await new Promise(function (resolve, reject) {
+            setTimeout(function () {
+                const data = "Data fetched with Async/Await!";
+                resolve(data);
+            }, 1000);
+        });
+        console.log(result); // This will be called after 1 second
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+fetchDataWithAsyncAwait();
+
+    </script>
+</body>
+</html>
