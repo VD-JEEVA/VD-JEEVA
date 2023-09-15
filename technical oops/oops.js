@@ -3,15 +3,11 @@ class telivision {
         this.CompanyName = CompanyName;
         this.Size_Inch = Size_Inch;
         this.Year = Year;
-        this.Price = Price; // Corrected this line
+        this.Price = Price; 
     }
 
-    dish() {
-        let button = 1; // Corrected this line
-        if (button == 1)
-            return "display channel program";
-        else
-            return "blank screen";
+    remotebtn() {
+            return "display channel.NO 1 program";
     }
 }
 
@@ -29,11 +25,10 @@ class airtel extends telivision {
         super(CompanyName);
     }
 
-    dish() {
+    remotebtn() {
+        button==1
         return "sun tv in channel 1";
     }
-}
+}   
 
-// Example usage:
-const myTV = new airtel("Sony");
-console.log(myTV.dish()); // Outputs: "sun tv in channel 1"
+
