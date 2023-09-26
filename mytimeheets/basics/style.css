@@ -1,6 +1,10 @@
 * {
   padding: 10px;
 }
+td{
+  border-width: 1em;
+
+}
 .flx{
     border-: 8px solid grey;
     display: flex;

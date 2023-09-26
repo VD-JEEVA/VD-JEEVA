@@ -32,7 +32,7 @@ namespace DBConnectivity
         public void getData()
         {
 
-            //string connectionDetails = "server=127.0.0.1;database=library1;uid=root;pwd=Gowtham01@";
+            //string connectionDetails = "server=127.0.0.1;database=library1;uid=root;pwd=VueData@2023";
 
             //MySqlConnection mySqlConnection = new MySqlConnection();
 

@@ -1,0 +1,14 @@
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\bin\Debug\net6.0\college.exe
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\bin\Debug\net6.0\college.deps.json
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\bin\Debug\net6.0\college.runtimeconfig.json
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\bin\Debug\net6.0\college.dll
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\bin\Debug\net6.0\college.pdb
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\obj\Debug\net6.0\college.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\obj\Debug\net6.0\college.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\obj\Debug\net6.0\college.AssemblyInfo.cs
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\obj\Debug\net6.0\college.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\obj\Debug\net6.0\college.dll
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\obj\Debug\net6.0\refint\college.dll
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\obj\Debug\net6.0\college.pdb
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\obj\Debug\net6.0\college.genruntimeconfig.cache
+C:\Users\USER\Desktop\VD_Jeeva\VD-JEEVA\college\college\obj\Debug\net6.0\ref\college.dll
