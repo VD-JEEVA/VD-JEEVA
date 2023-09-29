@@ -1,4 +1,35 @@
+fetch("https://fakestoreapi.com/products/")
+    .then(res=>{
 
+    return response.json();
+    })
+    .then(products=>{
+        let placeholder=document.querySelector("#productlist");  
+        let out= "";
+        for(let product of productslist){
+        out +=`
+        <tr>
+        <td> <img src='${product.image}'></td>
+        <td> ${product.id}</td>
+        <td> ${product.title}</td>
+        <td> ${product.description}</td>
+        <td> ${product.category}</td>
+        <td> ${product.price}</td>
+        <td> ${product.rating}</td>
+        
+
+
+        </tr>
+            
+    `;
+        }
+        placeholder.innerHTML=out;
+    })
+
+
+        
+        
+        
         const apiDataElement = document.getElementById('apiData');
         const newproduct=document.getElementById("newproduct")
         const deleteproduct=document.getElementById("deleteproduct")
@@ -10,6 +41,8 @@
         const update = document.getElementById('update');
 
         let i = 1;
+
+
 
  
 
