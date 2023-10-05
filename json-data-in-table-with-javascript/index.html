@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	 <link rel="stylesheet" href="styles.css">
+	 <script src="script.js"></script> 
+	<title>Start up</title>
+</head>
+<body>
+	<div class="container pt-3">
+		<div class="row"></div>
+		<div class="coloum"></div>
+		<button class="btn btn-success" id="getpost" onclick="displayproducts()">GET</button>
+		<button class="btn btn-primary" id="createpost" onclick="createproduct()">POST</button>
+		<button class="btn btn-info" id="updatepost">PUT</button>
+		<button class="btn btn-danger" id="deletepost">DELETE</button>
+	</div>
+       <table id="apiData">
+		<thead>
+			<tr>
+				<th>Image</th>
+				<th>Product name</th>
+				<th>Price</th>
+				<th>Description</th>
+				<th>Category</th>
+				<th>rating</th>
+				<th>count</th>
+				
+			</tr>
+		</thead>
+		<tbody id="data-output">
+			
+		</tbody>
+	</table>
+
+	
+</body>
+</html>
