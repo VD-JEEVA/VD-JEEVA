@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\VD_Jeeva\\VD-JEEVA\\college\\college\\college.csproj": {}
+    "C:\\VD_Jeeva\\VD-JEEVA\\college\\college\\college.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\VD_Jeeva\\VD-JEEVA\\college\\college\\college.csproj": {
+    "C:\\VD_Jeeva\\VD-JEEVA\\college\\college\\college.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\VD_Jeeva\\VD-JEEVA\\college\\college\\college.csproj",
+        "projectUniqueName": "C:\\VD_Jeeva\\VD-JEEVA\\college\\college\\college.csproj",
         "projectName": "college",
-        "projectPath": "C:\\Users\\USER\\Desktop\\VD_Jeeva\\VD-JEEVA\\college\\college\\college.csproj",
+        "projectPath": "C:\\VD_Jeeva\\VD-JEEVA\\college\\college\\college.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\VD_Jeeva\\VD-JEEVA\\college\\college\\obj\\",
+        "outputPath": "C:\\VD_Jeeva\\VD-JEEVA\\college\\college\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

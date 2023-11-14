@@ -24,3 +24,4 @@ const{fname,address:{city}}=user;
 console.log(fname);
 console.log(city);
 
+
