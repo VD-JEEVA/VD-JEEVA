@@ -1,0 +1,19 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "react works",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}
